@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GraphicsConfig>
+    <SpotShadows_Low>
+<Enabled>false</Enabled>
+        <NumCacheShadows>0</NumCacheShadows>
+        <NumSpotShadows>0</NumSpotShadows>
+        <CacheShadowAtlasSize>0</CacheShadowAtlasSize>
+        <CacheShadowSize>0</CacheShadowSize>
+    </SpotShadows_Low>
+  <Planets>
+    <Low>
+      <LocalisationName>$QUALITY_LOW;</LocalisationName>
+      <TextureSize>256</TextureSize>
+      <AtmosphereSteps>4</AtmosphereSteps>
+      <CloudsEnabled>true</CloudsEnabled>
+      <WorkPerFrame>96</WorkPerFrame>
+	  <TexturePoolBudget>6</TexturePoolBudget>
+    </Low>
+ </Planets>
+  <Terrain>
+	<Low>
+		<LocalisationName>$QUALITY_LOW;</LocalisationName>
+		<QualityID>Low</QualityID>
+		<LODTable>Low</LODTable>
+		<PatchLighting>true</PatchLighting>
+		<PatchTextures>true</PatchTextures>
+        <BlendTargetsResolution>128</BlendTargetsResolution>
+        <WindVectorFieldResolution>256</WindVectorFieldResolution>
+		<LODsToDrop>1</LODsToDrop>
+        <FineMipsToDrop>1</FineMipsToDrop>
+		<SysMapDownRes>0</SysMapDownRes>
+	</Low>
+</Terrain>
+  <Envmap>
+	<Low>
+		<LocalisationName>$QUALITY_LOW;</LocalisationName>
+		<TextureSize>32</TextureSize>
+		<NumMips>8</NumMips>
+	</Low>
+  </Envmap>
+
+</GraphicsConfig>
