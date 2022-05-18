@@ -26,8 +26,8 @@
 		<PatchTextures>true</PatchTextures>
         <BlendTargetsResolution>128</BlendTargetsResolution>
         <WindVectorFieldResolution>256</WindVectorFieldResolution>
-		<LODsToDrop>1</LODsToDrop>
-        <FineMipsToDrop>1</FineMipsToDrop>
+		<LODsToDrop>3</LODsToDrop>
+        <FineMipsToDrop>3</FineMipsToDrop>
 		<SysMapDownRes>0</SysMapDownRes>
 	</Low>
 </Terrain>
@@ -35,7 +35,7 @@
 	<Low>
 		<LocalisationName>$QUALITY_LOW;</LocalisationName>
 		<TextureSize>32</TextureSize>
-		<NumMips>8</NumMips>
+		<NumMips>3</NumMips>
 	</Low>
   </Envmap>
 
